@@ -25,7 +25,7 @@
 	margin-bottom: -5px;
 	margin-top: 170px;
 	padding-right: 10px;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
 .h3 {
@@ -35,16 +35,27 @@
 	font-weight: bold;
 	margin-top: 5px;
 	margin-bottom: 0px;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 
-.doclink {
-	padding-left: 10px;
-	padding-top: 10px;
+.doclink_full {
+	padding-left: 0px;
+	margin-top: 30px;
 	font-family: arial;
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: normal;
+	text-decoration:none;
+}
+
+.doclink {
+	padding-left: 15px;
+	margin-top: 30px;
+	font-family: arial;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration:none;
 }
 
 .doclink_2 {
@@ -84,6 +95,24 @@
 	font-size: 12px;
 	text-align: center;
 }
+
+.download_link {
+	font-family: arial;
+	color: #8a7c7b;
+	margin-top: 0em;
+	font-size: 16px;
+	text-align: center;
+}
+
+.download {
+	font-family: arial;
+	color: #00709c;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10px;
+	margin-bottom: 1px;
+	margin-top:0px;
+}
 #download {
 	position: Absolute;
 	top: 55px;
@@ -99,40 +128,11 @@
 	padding-top: 0em;
 }
 
-#install {
-	position: Absolute;
-	top: 55px;
-	left: 320px;
-	width: 285x;
-	height: 80px; 
-	background-color: #f5f5f5;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #bebebe;
-	border-style: solid;
-	padding-top: 0em;
-}
-
-#upgrade {
-	position: Absolute;
-	top: 55px;
-	left: 630px;
-	width: 285px;
-	height: 80px; 
-	background-color: #f5f5f5;
-	background-size: 275px 275px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #bebebe;
-	border-style: solid;
-	padding-top: 0em;
-}
-
 #step1 {
 	position: Absolute;
-	top: 157px;
+	top: 50px;
 	left: 10px;
-	width: 285px;
+	width: 295px;;
 	height: 275px; 
 	background-color: #0d608e;
 	background-size: 275px 275px;
@@ -145,9 +145,9 @@
 
 #step2 {
 	position: Absolute;
-	top: 157px;
-	left: 320px;
-	width: 285px;
+	top: 50px;
+	left: 330px;
+	width: 295px;;
 	height: 275px;
 	padding-top: 0em;
 	background-color: #0d608e;
@@ -160,9 +160,9 @@
 
 #step3 {
 	position: Absolute;
-	top: 157px;
-	left: 630px;
-	width: 285px;
+	top: 50px;
+	left: 650px;
+	width: 295px;;
 	height: 275px;
 	padding-top: 0em;
 	background-color: #0d608e;
@@ -175,9 +175,9 @@
 
 #step4 {
 	position: Absolute;
-	top: 457px;
+	top: 350px;
 	left: 10px;
-	width: 285px;
+	width: 295px;;
 	height: 275px;
 	padding-top: 0em;
 	background-color: #0d608e;
@@ -190,9 +190,9 @@
 
 #step5 {
 	position: Absolute;
-	top: 457px;
-	left: 320px;
-	width: 285px;
+	top: 350px;
+	left: 330px;
+	width: 295px;;
 	height: 275px;
 	padding-top: 0em;
 	background-color: #0d608e;
@@ -205,9 +205,9 @@
 
 #step6 {
 	position: Absolute;
-	top: 457px;
-	left: 630px;
-	width: 285px;
+	top: 350px;
+	left: 650px;
+	width: 295px;;
 	height: 275px;
 	padding-top: 0em;
 	background-color: #0d608e;
@@ -222,18 +222,18 @@
 	position: Absolute;
 	width:243px;
 	height:149px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
 }
 
 #whatNext
 {
 	position: Absolute;
-	top: 757px;
+	top: 650px;
 	left: 10px;
-	width: 900px;
+	width: 430px;
 	background-color: #e0f3fc;
 	padding-top: 0em;
 	padding-left: 5px;
@@ -242,6 +242,20 @@
 	border-width: 1px;
 	border-color: #bebebe;
 	border-style: solid
+}
+
+#install {
+	position: Absolute;
+	top: 650px;
+	left: 470px;
+	height: 80px; 
+	background-color: #e0f3fc;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bebebe;
+	border-style: solid;
+	padding-top: 0em;
+	width:475px;
 }
 
 #table_more_info tr td {
@@ -254,14 +268,14 @@
 
 #zend-logo {
 	position: Absolute;
-	top: 867px;
+	top: 760px;
 	left: 420px;
 	align: center;
 }
 
 #rights {
 	position: Absolute;
-	top: 925px;
+	top: 818px;
 	left: 345px;
 	align: center;
 }
@@ -278,48 +292,14 @@
 	<!-- <div id=download style="width:285px;">
 	</div>-->
 	<a href="http://www.zend.com/en/products/server/downloads" target="tab"><img src=" http://static.zend.com/topics/download-button.png" style="margin-left:20px;margin-top:10px;"></a>
-	<div id=install style="width:285px;">
-		<p class=h2_whatNext>Install </p>
-		<!-- <p class=doclink_2> Read Zend Server installation instructions:</p> -->
-		<table id="table_more_info">
-			<tr>
-				<td class="table_link"><a href="overview.htm"
-					class="table_link">DEB</a></td>
-				<td class="table_link"><a href="getting_started.htm"
-					class="table_link">RPM</a></td>
-				<td class="table_link"><a href="videos.htm" class="table_link">RPM</a></td>
-				<td class="table_link"><a href="deploying_an_application.htm"
-					class="table_link">Windows</a></td>
-				<td style="border-right: 0px; text-align: center"><a
-					href="user_interface_overview" class="table_link">Mac</a></td>
-			</tr>
-		</table>
-	</div>
-	<div id=upgrade style="width:285px;">
-		<p class=h2_whatNext>Upgrade </p>
-		<!--<p class=doclink_2> Read Zend Server upgrade instructions:</p>-->
-		<table id="table_more_info">
-			<tr>
-				<td class="table_link"><a href="overview.htm"
-					class="table_link">DEB</a></td>
-				<td class="table_link"><a href="getting_started.htm"
-					class="table_link">RPM</a></td>
-				<td class="table_link"><a href="videos.htm" class="table_link">RPM</a></td>
-				<td class="table_link"><a href="deploying_an_application.htm"
-					class="table_link">Windows</a></td>
-				<td style="border-right: 0px; text-align: center"><a
-					href="user_interface_overview" class="table_link">Mac</a></td>
-			</tr>
-		</table>
-	</div>
 	<div id=step1>
 		<div id=video>
-			<img
-				src="http://static.zend.com/topics/getting-started-step1-screen.jpg" class=img>
+			<a href="www.zend.com"><img
+				src="http://static.zend.com/topics/getting-started-step1-screen.jpg" class=img></a>
 		</div>
 		<p class=h2>STEP 1:</p>
 		<p class=h3>Launching Zend Server</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step1" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=step2>
 		<div id=video>
@@ -328,7 +308,7 @@
 		</div>
 		<p class=h2>STEP 2:</p>
 		<p class=h3>Verifying your Installation</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step2" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=step3>
 		<div id=video>
@@ -337,7 +317,7 @@
 		</div>
 		<p class=h2>STEP 3:</p>
 		<p class=h3>Configuring your PHP</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step3" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=step4>
 		<div id=video>
@@ -346,7 +326,7 @@
 		</div>
 		<p class=h2>STEP 4:</p>
 		<p class=h3>Deploying the Demo App</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step4" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=step5>
 		<div id=video>
@@ -355,7 +335,7 @@
 		</div>
 		<p class=h2>STEP 5:</p>
 		<p class=h3>Monitoring your App</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step5" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=step6>
 		<div id=video>
@@ -364,7 +344,7 @@
 		</div>
 		<p class=h2>STEP 6:</p>
 		<p class=h3>Troublshooting your App</p>
-		<p class=doclink>See detailed workflow ></p>
+		<p class="doclink_full"><a href="getting_started_step6" class="doclink">See detailed workflow ></a></p>
 	</div>
 	<div id=whatNext>
 		<p class=h2_whatNext>GREAT! What next?</p>
@@ -380,6 +360,18 @@
 				<td style="border-right: 0px; text-align: center"><a
 					href="user_interface_overview" class="table_link">Tour the UI</a></td>
 			</tr>
+		</table>
+	</div>
+	<div id=install>
+		<p class=h2_whatNext>Zend Server not set up?</p>
+		<!-- <p class="download">Haven't downloaded Zend Server yet? Click <a href="http://www.zend.com/en/products/server/downloads" class="download_link">here</a>.</p>
+		<p class="download">Looking for installation instructions? Click <a href="installation_guide.htm" class="download_link">here</a>.</p>-->
+		<table id="table_more_info">
+			<tr>
+				<td class="table_link"><a href="http://www.zend.com/en/products/server/downloads"
+					class="table_link">Download Zend Server</a></td>
+				<td class="table_link" style="border-right:none;"><a href="installation_guide.htm"
+					class="table_link">Installation and Upgrade Instructions</a></td>
 		</table>
 	</div>
 	<div id="zend-logo">
